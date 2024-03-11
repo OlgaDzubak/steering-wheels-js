@@ -5,7 +5,7 @@
   "homepage": "https://OlgaDzubak.github.io/steering-wheels",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /steering-wheels/"
+    "build": "parcel build src/*.html --public-url /steering-wheels-js/"
   },
   "repository": {
     "type": "git",
