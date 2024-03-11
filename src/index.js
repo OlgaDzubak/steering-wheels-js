@@ -9,7 +9,9 @@ let smleLightBox = new SimpleLightbox('ul.gallery a', {captionsData: 'alt', capt
 
 
 const btnScrollToTop = document.querySelector('.btn-up-scroll');        
+
 window.addEventListener('scroll', throttle(()=>{scrollTracker(btnScrollToTop);},500));
+
 btnScrollToTop.addEventListener('click', ()=>{
     scrollUp();
     this.classList.add('is-hidden-btn');
