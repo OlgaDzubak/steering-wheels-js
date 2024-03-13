@@ -2,10 +2,10 @@
   "name": "steering-wheels-js",
   "version": "2.0.0",
   "description": "Этот проект был создан при помощи Parcel. Для знакомства и настройки\r дополнительных возможностей [обратись к документации](https://parceljs.org/).",
-  "homepage": "https://OlgaDzubak.github.io/steering-wheels",
+  "homepage": "https://OlgaDzubak.github.io/steering-wheels-js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /steering-wheels/"
+    "build": "parcel build src/*.html --public-url /steering-wheels-js/"
   },
   "repository": {
     "type": "git",
