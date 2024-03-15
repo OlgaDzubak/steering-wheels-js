@@ -78,7 +78,6 @@
     padding-top: 30px;
     padding-bottom: 30px;
     box-shadow: 0px 2px 0px 0px var(--shadow-color);
-    margin-bottom: 30px;
   }
   .header-title-div{
     display: flex;
@@ -211,9 +210,11 @@
     height: 18px;
   }
 
-  .gallery{
-    padding-top: 30px;
+  main{
+    padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .gallery{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -444,7 +445,9 @@
       };
     }
     .gallery-item img{
-      width: 100%;
+      display: block;
+      max-width: 100%;
+      height: auto;
     }
     .footer-contacts-div{
       align-items: center;
