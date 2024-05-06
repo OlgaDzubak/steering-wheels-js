@@ -51,3 +51,10 @@ btnScrollToTop.addEventListener('click', ()=>{
 
 
 // ---------- обробка вибору мови сайту
+const lengSelect = document.querySelector('.leng');
+
+lengSelect.addEventListener('change', onSelectChange);
+
+function onSelectChange({target}){
+    
+}
