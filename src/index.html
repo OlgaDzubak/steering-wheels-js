@@ -12,7 +12,8 @@
     <link rel="icon" type="image/svg+xml" href="./images/Steering Wheel-logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./sass/index.scss">
     <title>Перетяжка керма</title>
 
@@ -23,457 +24,1638 @@
     <header>
       <div class="container">
           
-          <div class="header-title-div">
-              <h1 class="header-h1">Перетяжка керма та дрібних деталей автомобілів</h1>
-              <h2 class="header-h2">(ручки КПП, пильники, підлокітники, дверні карточки, та інше)</h3>
-          </div>
+            <select name="leng" id="leng-select" class="leng">
+              <option value="ua">ua</option>
+              <option value="ua">en</option>
+              <!-- <option value="ru">ru</option> -->
+            </select>
 
-          <div class="header-contacts-div">
+            <address class="header-address">
 
-            <address>
+              <div class="header-city-tel-div">
 
-              <p> м.Дніпро</p>
+                <p>м.Дніпро</p>
 
-              <ul class="header-contacts-ul list">
-                  <!--<li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>-->
-                  <li><a href="tel:+38(097)678-13-96" class="link">+38 (097) 678-13-96</a></li>
-                  <li><a href="tel:+38(050)531-92-76" class="link">+38 (050) 531-92-76</a></li>
+                <ul class="header-tel-ul list">
+                    <!--<li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>-->
+                    <li><a href="tel:+38(097)678-13-96" class="link">+38(097) 678-13-96</a></li>
+                    <li><a href="tel:+38(050)531-92-76" class="link">+38(050) 531-92-76</a></li>
+                </ul>
+              
+              </div>
+
+              <ul class="header-social-icons-list list">
+
+                  <li class="social-icons-item">
+                    <a href="https://www.instagram.com/nataha9754" class="social-icons-item-link link" target="_blank">
+                      <svg class="social-list-icon">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-icons-item">
+                    <a href="https://www.viber.com/ru/" class="social-icons-item-link link" target="_blank">
+                      <svg class="social-list-icon">
+                        <use href="./images/sprite.svg#icon-viber"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-icons-item">
+                    <a href="https://t.me/NatashaLatash" class="social-icons-item-link link" target="_blank">
+                      <svg class="social-list-icon">
+                        <use href="./images/sprite.svg#icon-telegram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
               </ul>
 
+              
+
             </address>
-
-            <ul class="social-icons-list list">
-
-                <li class="social-icons-item">
-                  <a href="https://www.instagram.com/nataha9754" class="social-icons-item-link link" target="_blank">
-                    <svg class="social-list-icon">
-                      <use href="./images/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-
-                <li class="social-icons-item">
-                  <a href="https://www.viber.com/ru/" class="social-icons-item-link link" target="_blank">
-                    <svg class="social-list-icon">
-                      <use href="./images/sprite.svg#icon-viber"></use>
-                    </svg>
-                  </a>
-                </li>
-
-                <li class="social-icons-item">
-                  <a href="https://t.me/NatashaLatash" class="social-icons-item-link link" target="_blank">
-                    <svg class="social-list-icon">
-                      <use href="./images/sprite.svg#icon-telegram"></use>
-                    </svg>
-                  </a>
-                </li>
-
-            </ul>
-            
-          </div>
 
       </div>
     </header>
     
     <main>
-      <section class="gallery-section">
-    
+
+      <section class="hero-section">
         <div class="container">
-          
-          <ul class="gallery list">
+          <h1 class="header-h1">Перетяжка керма та дрібних деталей автомобілів</h1>
+          <h2 class="header-h2">(ручки КПП, пильники, підлокітники, дверні карточки, та інше)</h2>
+        </div>
+      </section>
 
-            <li class="gallery-item">
-                <a href="./images/large/Photo_1_2021_1000x1000.jpg">
-                  <img 
-                    src="./images/small/Photo_1_2021_400x400.jpg" 
-                    alt="Кермо (Toyota), натуральна шкіра темна-сіра, наппа"
-                    width="400px"
-                    >
-                  <p>Кермо (Toyota), натуральна шкіра темна-сіра, наппа</p>
-                </a>
-            </li>
+      <section class="gallery-section">
 
-            <li class="gallery-item">
-                <a href="./images/large/photo_1_05.01.24_1000x1000.jpg">
-                  <img src="./images/small/photo_1_05.01.24_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий, флотар">
-                  <p>Кермо, замінник шкіри темно-сірий, флотар</p>
-                </a>
-            </li>
+        <div class="container">
 
-            <li class="gallery-item">
-              <a href="./images/large/photo_3_05.01.24_1000x1000.jpg">
-                <img src="./images/small/photo_3_05.01.24_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий, флотар">
-                <p>Кермо, замінник шкіри темно-сірий, флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_4_1000x1000.jpg">
-                <img src="./images/small/Photo_4_400x400.jpg" alt="Кермо BMW, натуральна шкіра чорна">
-                <p>Кермо BMW, натуральна шкіра чорна</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_5_1000x1000.jpg">
-                <img src="./images/small/Photo_5_400x400.jpg" alt="Кермо, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_6-1000x1000.jpg">
-                <img src="./images/small/Photo_6-400x400.jpg" alt="Кермо, замінник шкіри чорний гладкий">
-                <p>Кермо, замінник шкіри чорний гладкий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_7_1000x1000.jpg">
-                <img src="./images/small/Photo_7_400x400.jpg" alt="Ручка КПП, натуральна шкіра темно-сіра флотар">
-                <p>Ручка КПП, натуральна шкіра темно-сіра флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_36_1000x1000.jpg">
-                <img src="./images/small/Photo_36_400x400.jpg" alt="Ручка КПП, натуральна шкіра темно-сіра наппа">
-                <p>Ручка КПП, натуральна шкіра темно-сіра наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_8_1000x1000.jpg">
-                <img src="./images/small/Photo_8_400x400.jpg" alt="Ручка КПП, натуральна шкіра чорна флотар">
-                <p>Ручка КПП, натуральна шкіра чорна флотар</p>
-              </a>
-            </li>
-            
-            <li class="gallery-item">
-              <a href="./images/large/Photo_9_1000x1000.jpg">
-                <img src="./images/small/Photo_9_400x400.jpg" alt="Ручка КПП, натуральна шкіра чорна">
-                <p>Ручка КПП, натуральна шкіра чорна</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_10_1000x1000.jpg">
-                <img src="./images/small/Photo_10_400x400.jpg" alt="Ручка КПП, натуральна шкіра чорна">
-                <p>Ручка КПП, натуральна шкіра чорна</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_11_1000x1000.jpg">
-                <img src="./images/small/Photo_11_400x400.jpg" alt="Підлокітник, замінник шкіри темно-сірий, світла нитка">
-                <p>Підлокітник, замінник шкіри темно-сірий, світла нитка</p>
-              </a>
-            </li>
-            
-            <li class="gallery-item">
-              <a href="./images/large/Photo_12_1000x1000.jpg">
-                <img src="./images/small/Photo_12_400x400.jpg" alt="Пильник, замінник шкіри темно-сірий">
-                <p>Пильник, замінник шкіри темно-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_13_1000x1000.jpg">
-                <img src="./images/small/Photo_13_400x400.jpg" alt="Ручка КПП, замінник шкіри темно-сірий">
-                <p>Ручка КПП, замінник шкіри темно-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_14_1000x1000.jpg">
-                <img src="./images/small/Photo_14_400x400.jpg" alt="Ручка КПП, замінник шкіри темно-сірий">
-                <p>Ручка КПП, замінник шкіри темно-сірий</p>
-              </a>
-            </li>
-            
-            <li class="gallery-item">
-              <a href="./images/large/Photo_15_1000x1000.jpg">
-                <img src="./images/small/Photo_15_400x400.jpg" alt="Ручка КПП, замінник шкіри темно-сірий">
-                <p>Ручка КПП, замінник шкіри темно-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_16_1000x1000.jpg">
-                <img src="./images/small/Photo_16_400x400.jpg" alt="Ручка КПП та пильник, замінник шкіри темно-сірий флотар">
-                <p>Ручка КПП та пильник, замінник шкіри темно-сірий флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_17_1000x1000.jpg">
-                <img src="./images/small/Photo_17_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий флотар">
-                <p>Кермо, замінник шкіри темно-сірий флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_18_1000x1000.jpg">
-                <img src="./images/small/Photo_18_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, замінник шкіри черний гладкий">
-                <p>Кермо з лаковими дерев'яними вставками, замінник шкіри черний гладкий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_19_1000x1000.jpg">
-                <img src="./images/small/Photo_19_400x400.jpg" alt="Кермо, замінник шкіри чорний гладкий">
-                <p>Кермо, замінник шкіри чорний гладкий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_20_1000x1000.jpg">
-                <img src="./images/small/Photo_20_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра темно-сіра наппа">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра темно-сіра наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_21_1000x1000.jpg">
-                <img src="./images/small/Photo_21_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий флотар">
-                <p>Кермо, замінник шкіри темно-сірий флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_22_1000x1000.jpg">
-                <img src="./images/small/Photo_22_400x400.jpg" alt="Кермо, замінник шкіри чорний комбінований (гладкий та перфорований)">
-                <p>Кермо, замінник шкіри чорний комбінований (гладкий та перфорований)</p>
-              </a>
-              
-            <li class="gallery-item">
-              <a href="./images/large/Photo_23_1000x1000.jpg">
-                <img src="./images/small/Photo_23_400x400.jpg" alt="Кермо, натуральна шкіра чорна">
-                <p>Кермо, натуральна шкіра чорна</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_24_1000x1000.jpg">
-                <img src="./images/small/Photo_24_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра темно-сіра наппа">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра темно-сіра наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_25_1000x1000.jpg">
-                <img src="./images/small/Photo_25_400x400.jpg" alt="Підлокітники, замінник шкіри світло-сірий">
-                <p>Підлокітники, замінник шкіри світло-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_26_1000x1000.jpg">
-                <img src="./images/small/Photo_26_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра темно-сіра флотар">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра темно-сіра флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_27_1000x1000.jpg">
-                <img src="./images/small/Photo_27_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий комбінований (перфорація та флотар)">
-                <p>Кермо, замінник шкіри темно-сірий комбінований (перфорація та флотар)</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_28_1000x1000.jpg">
-                <img src="./images/small/Photo_28_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий флотар">
-                <p>Кермо, замінник шкіри темно-сірий флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_30_1000x1000.jpg">
-                <img src="./images/small/Photo_30_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий флотар">
-                <p>Кермо, замінник шкіри темно-сірий флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_31_1000x1000.jpg">
-                <img src="./images/small/Photo_31_400x400.jpg" alt="Кермо, натуральна шкіра чорна">
-                <p>Кермо, натуральна шкіра чорна</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_32_1000x1000.jpg">
-                <img src="./images/small/Photo_32_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий флотар">
-                <p>Кермо, замінник шкіри темно-сірий флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_33_1000x1000.jpg">
-                <img src="./images/small/Photo_33_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра коричнева наппа">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра коричнева наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_34_1000x1000.jpg">
-                <img src="./images/small/Photo_34_400x400.jpg" alt="Кермо, натуральна шкіра чорна флотар">
-                <p>Кермо, натуральна шкіра чорна флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_35_1000x1000.jpg">
-                <img src="./images/small/Photo_35_400x400.jpg" alt="Кермо, замінник шкіри чорний гладкий">
-                <p>Кермо, замінник шкіри чорний гладкий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_37_1000x1000.jpg">
-                <img src="./images/small/Photo_37_400x400.jpg" alt="Кермо, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_38_1000x1000.jpg">
-                <img src="./images/small/Photo_38_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_39_1000x1000.jpg">
-                <img src="./images/small/Photo_39_400x400.jpg" alt="Кермо, натуральна шкіра чорна, світло-сіра нитка">
-                <p>Кермо, натуральна шкіра чорна, світло-сіра нитка</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_40_1000x1000.jpg">
-                <img src="./images/small/Photo_40_400x400.jpg" alt="Кермо, натуральна шкіра темно-сіра наппа комбінована (гладка та напівперфорована)">
-                <p>Кермо, натуральна шкіра темно-сіра наппа комбінована (гладка та напівперфорована)</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_41_1000x1000.jpg">
-                <img src="./images/small/Photo_41_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_42_1000x1000.jpg">
-                <img src="./images/small/Photo_42_400x400.jpg" alt="Кермо, натуральна шкіра темно-сіра наппа перфорована">
-                <p>Кермо, натуральна шкіра темно-сіра наппа перфорована</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_43_1000x1000.jpg">
-                <img src="./images/small/Photo_43_400x400.jpg" alt="Підлокітник, пильник та ручка КПП, замінник шкіри темно-сірий">
-                <p>Підлокітник, пильник та ручка КПП, замінник шкіри темно-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_44_1000x1000.jpg">
-                <img src="./images/small/Photo_44_400x400.jpg" alt="Кермо, натуральна шкіра темно-сіра">
-                <p>Кермо, натуральна шкіра темно-сіра</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_45_1000x1000.jpg">
-                <img src="./images/small/Photo_45_400x400.jpg" alt="Підлокітник, натуральна шкіра темно-сіра, наппа з напівперфорацією">
-                <p>Підлокітник, натуральна шкіра темно-сіра, наппа з напівперфорацією</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_49_1000x1000.jpg">
-                <img src="./images/small/Photo_49_400x400.jpg" alt="Підлокітник, натуральна шкіра темно-сіра, наппа з напівперфорацією">
-                <p>Підлокітник, натуральна шкіра темно-сіра, наппа з напівперфорацією</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_46_1000x1000.jpg">
-                <img src="./images/small/Photo_46_400x400.jpg" alt="Кермо, натуральна шкіра чорна комбінована (гладка та перфорована)">
-                <p>Кермо, натуральна шкіра чорна комбінована (гладка та перфорована)</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_47_1000x1000.jpg">
-                <img src="./images/small/Photo_47_400x400.jpg" alt="Кермо, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_48_1000x1000.jpg">
-                <img src="./images/small/Photo_48_400x400.jpg" alt="Кермо, замінник шкіри темно-сірий, флотар">
-                <p>Кермо, замінник шкіри темно-сірий, флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_50_1000x1000.jpg">
-                <img src="./images/small/Photo_50_400x400.jpg" alt="Дверні ручки, замінник шкіри світло-сірий">
-                <p>Дверні ручки, замінник шкіри світло-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_51_1000x1000.jpg">
-                <img src="./images/small/Photo_51_400x400.jpg" alt="Підлокітник, замінник шкіри світло-сірий">
-                <p>Підлокітник, замінник шкіри світло-сірий</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_52_1000x1000.jpg">
-                <img src="./images/small/Photo_52_400x400.jpg" alt="Кермо з лаковими дерев'яними вставками, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо з лаковими дерев'яними вставками, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_53_1000x1000.jpg">
-                <img src="./images/small/Photo_53_400x400.jpg" alt="Кермо Skoda, замінник шкіри темно-сірий, флотар">
-                <p>Кермо Skoda, замінник шкіри темно-сірий, флотар</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_54_1000x1000.jpg">
-                <img src="./images/small/Photo_54_400x400.jpg" alt="Підлокітник, натуральна шкіра темно-сіра, наппа">
-                <p>Підлокітник, натуральна шкіра темно-сіра, наппа</p>
-              </a>
-            </li>
-
-            <li class="gallery-item">
-              <a href="./images/large/Photo_56_1000x1000.jpg">
-                <img src="./images/small/Photo_56_400x400.jpg" alt="Кермо, натуральна шкіра темна-сіра, наппа">
-                <p>Кермо, натуральна шкіра темна-сіра, наппа</p>
-              </a>
-            </li>
-
+          <ul class="buttons-ul list">
+            <li class="buttons-ul-li"><button value="all" class="buttons-ul-btn pointer active" type="button">Всі</button></li>
+            <li class="buttons-ul-li"><button value="steering-wheel" class="buttons-ul-btn pointer" type="button">Кермо</button></li>
+            <li class="buttons-ul-li"><button value="knob" class="buttons-ul-btn pointer" type="button">Ручки КПП</button></li>
+            <li class="buttons-ul-li"><button value="cover" class="buttons-ul-btn pointer" type="button">Пильники</button></li>
+            <li class="buttons-ul-li"><button value="armrest" class="buttons-ul-btn pointer" type="button">Підлокітники</button></li>
           </ul>
-          
-          <button type="button" class="btn-up-scroll is-hidden-btn">   <!--кнопка скролу на початок сторінки-->
-            <svg class="scrol-up-arrow">
-                <use href="/src/images/sprite.svg#icon-Vector"></use>
-            </svg>
-          </button>
+
+           <ul class="gallery list">
+
+            <li class="gallery-item steering-wheel is-visible-li">
+                <a class="gallery-item-link link" href="./images/desktop/Photo_1@3x.jpg">
+                  <div class="gallery-item-img">
+                    <picture>
+                      <source
+                        srcset="./images/mobile/Photo_1@1x.jpg 1x, ./images/mobile/Photo_1@2x.jpg 2x, ./images/mobile/Photo_1@3x.jpg 3x"
+                        media="(max-width: 767.9px)"
+                      >
+                      <source
+                        srcset="./images/tablet/Photo_1@1x.jpg 1x, ./images/tablet/Photo_1@2x.jpg 2x, ./images/tablet/Photo_1@3x.jpg 3x"
+                        media="(min-width: 768px) and (max-width: 1439.8px)"
+                      >
+                      <source
+                        srcset="./images/desktop/Photo_1@1x.jpg 1x, ./images/desktop/Photo_1@2x.jpg 2x, ./images/desktop/Photo_1@3x.jpg 3x"
+                        media="(min-width: 1440px)"
+                      >
+                      <img 
+                        src="./images/mobile/Photo_1@1x.jpg" 
+                        alt="Кермо (Toyota), натуральна шкіра темна-сіра, наппа" 
+                      >
+                    </picture>
+                  </div>
+                </a>
+                <div class="gallery-item-content">
+                  <p>Кермо (Toyota), натуральна шкіра темна-сіра, наппа</p>
+                </div>
+                
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+                <a class="gallery-item-link link" href="./images/desktop/Photo_2@3x.jpg">
+                  
+                  <div class="gallery-item-img">
+                    <picture>
+                      <source
+                        srcset="./images/mobile/Photo_2@1x.jpg 1x, ./images/mobile/Photo_2@2x.jpg 2x, ./images/mobile/Photo_2@3x.jpg 3x"
+                        media="(max-width: 767.9px)"
+                      >
+                      <source
+                        srcset="./images/tablet/Photo_2@1x.jpg 1x, ./images/tablet/Photo_2@2x.jpg 2x, ./images/tablet/Photo_2@3x.jpg 3x"
+                        media="(min-width: 768px) and (max-width: 1439.8px)"
+                      >
+                      <source
+                        srcset="./images/desktop/Photo_2@1x.jpg 1x, ./images/desktop/Photo_2@2x.jpg 2x, ./images/desktop/Photo_2@3x.jpg 3x"
+                        media="(min-width: 1440px)"
+                      >
+                      <img 
+                        src="./images/mobile/Photo_2@1x.jpg" 
+                        alt="Кермо, замінник шкіри темно-сірий, флотар" 
+                      >
+                    </picture>
+                  </div>
+                </a>
+                <div class="gallery-item-content">
+                  <p>Кермо, замінник шкіри темно-сірий, флотар</p>
+                </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_3@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_3@1x.jpg 1x, ./images/mobile/Photo_3@2x.jpg 2x, ./images/mobile/Photo_3@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_3@1x.jpg 1x, ./images/tablet/Photo_3@2x.jpg 2x, ./images/tablet/Photo_3@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_3@1x.jpg 1x, ./images/desktop/Photo_3@2x.jpg 2x, ./images/desktop/Photo_3@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_3@1x.jpg" 
+                      alt="Кермо, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_4@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_4@1x.jpg 1x, ./images/mobile/Photo_4@2x.jpg 2x, ./images/mobile/Photo_4@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_4@1x.jpg 1x, ./images/tablet/Photo_4@2x.jpg 2x, ./images/tablet/Photo_4@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_4@1x.jpg 1x, ./images/desktop/Photo_4@2x.jpg 2x, ./images/desktop/Photo_4@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_4@1x.jpg" 
+                      alt="Кермо BMW, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо BMW, замінник шкіри чорний гладкий</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_5@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_5@1x.jpg 1x, ./images/mobile/Photo_5@2x.jpg 2x, ./images/mobile/Photo_5@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_5@1x.jpg 1x, ./images/tablet/Photo_5@2x.jpg 2x, ./images/tablet/Photo_5@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_5@1x.jpg 1x, ./images/desktop/Photo_5@2x.jpg 2x, ./images/desktop/Photo_5@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_5@1x.jpg" 
+                      alt="Кермо, натуральна шкіра темна-сіра, наппа" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, натуральна шкіра темна-сіра, наппа</p>
+              </div>
+            </li>           
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_6@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_6@1x.jpg 1x, ./images/mobile/Photo_6@2x.jpg 2x, ./images/mobile/Photo_6@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_6@1x.jpg 1x, ./images/tablet/Photo_6@2x.jpg 2x, ./images/tablet/Photo_6@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_6@1x.jpg 1x, ./images/desktop/Photo_6@2x.jpg 2x, ./images/desktop/Photo_6@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_6@1x.jpg" 
+                      alt="Кермо, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри чорний гладкий</p>
+              </div>
+            </li>  
+ 
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_7@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_7@1x.jpg 1x, ./images/mobile/Photo_7@2x.jpg 2x, ./images/mobile/Photo_7@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_7@1x.jpg 1x, ./images/tablet/Photo_7@2x.jpg 2x, ./images/tablet/Photo_7@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_7@1x.jpg 1x, ./images/desktop/Photo_7@2x.jpg 2x, ./images/desktop/Photo_7@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_7@1x.jpg" 
+                      alt="Ручка КПП, шкіра натуральна темно-сіра, наппа(флотар)" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, шкіра натуральна темно-сіра, наппа(флотар)</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_8@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_8@1x.jpg 1x, ./images/mobile/Photo_8@2x.jpg 2x, ./images/mobile/Photo_8@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_8@1x.jpg 1x, ./images/tablet/Photo_8@2x.jpg 2x, ./images/tablet/Photo_8@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_8@1x.jpg 1x, ./images/desktop/Photo_8@2x.jpg 2x, ./images/desktop/Photo_8@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_8@1x.jpg" 
+                      alt="Ручка КПП, шкіра натуральна темно-сіра, наппа" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, шкіра натуральна темно-сіра, наппа</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_9@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_9@1x.jpg 1x, ./images/mobile/Photo_9@2x.jpg 2x, ./images/mobile/Photo_9@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_9@1x.jpg 1x, ./images/tablet/Photo_9@2x.jpg 2x, ./images/tablet/Photo_9@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_9@1x.jpg 1x, ./images/desktop/Photo_9@2x.jpg 2x, ./images/desktop/Photo_9@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_9@1x.jpg" 
+                      alt="Ручка КПП, шкіра натуральна чорна(флотар)" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, шкіра натуральна чорна(флотар)</p>
+              </div>
+            </li>             
+
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_10@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_10@1x.jpg 1x, ./images/mobile/Photo_10@2x.jpg 2x, ./images/mobile/Photo_10@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_10@1x.jpg 1x, ./images/tablet/Photo_10@2x.jpg 2x, ./images/tablet/Photo_10@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_10@1x.jpg 1x, ./images/desktop/Photo_10@2x.jpg 2x, ./images/desktop/Photo_10@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_10@1x.jpg" 
+                      alt="Ручка КПП, шкіра натуральна чорна" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, шкіра натуральна чорна</p>
+              </div>
+            </li>
+            
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_11@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_11@1x.jpg 1x, ./images/mobile/Photo_11@2x.jpg 2x, ./images/mobile/Photo_11@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_11@1x.jpg 1x, ./images/tablet/Photo_11@2x.jpg 2x, ./images/tablet/Photo_11@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_11@1x.jpg 1x, ./images/desktop/Photo_11@2x.jpg 2x, ./images/desktop/Photo_11@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_11@1x.jpg" 
+                      alt="Ручка КПП, шкіра натуральна чорна" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, шкіра натуральна чорна</p>
+              </div>
+            </li>            
+
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_12@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_12@1x.jpg 1x, ./images/mobile/Photo_12@2x.jpg 2x, ./images/mobile/Photo_12@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_12@1x.jpg 1x, ./images/tablet/Photo_12@2x.jpg 2x, ./images/tablet/Photo_12@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_12@1x.jpg 1x, ./images/desktop/Photo_12@2x.jpg 2x, ./images/desktop/Photo_12@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_12@1x.jpg" 
+                      alt="Підлокітник, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item cover is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_13@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_13@1x.jpg 1x, ./images/mobile/Photo_13@2x.jpg 2x, ./images/mobile/Photo_13@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_13@1x.jpg 1x, ./images/tablet/Photo_13@2x.jpg 2x, ./images/tablet/Photo_13@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_13@1x.jpg 1x, ./images/desktop/Photo_13@2x.jpg 2x, ./images/desktop/Photo_13@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_13@1x.jpg" 
+                      alt="Чохол(Пильник) на кулісу, замінник шкіри темно-сірий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Чохол(Пильник) на кулісу, замінник шкіри темно-сірий</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_14@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_14@1x.jpg 1x, ./images/mobile/Photo_14@2x.jpg 2x, ./images/mobile/Photo_14@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_14@1x.jpg 1x, ./images/tablet/Photo_14@2x.jpg 2x, ./images/tablet/Photo_14@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_14@1x.jpg 1x, ./images/desktop/Photo_14@2x.jpg 2x, ./images/desktop/Photo_14@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_14@1x.jpg" 
+                      alt="Ручка КПП, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_15@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_15@1x.jpg 1x, ./images/mobile/Photo_15@2x.jpg 2x, ./images/mobile/Photo_15@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_15@1x.jpg 1x, ./images/tablet/Photo_15@2x.jpg 2x, ./images/tablet/Photo_15@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_15@1x.jpg 1x, ./images/desktop/Photo_15@2x.jpg 2x, ./images/desktop/Photo_15@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_15@1x.jpg" 
+                      alt="Ручка КПП, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_16@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_16@1x.jpg 1x, ./images/mobile/Photo_16@2x.jpg 2x, ./images/mobile/Photo_16@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_16@1x.jpg 1x, ./images/tablet/Photo_16@2x.jpg 2x, ./images/tablet/Photo_16@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_16@1x.jpg 1x, ./images/desktop/Photo_16@2x.jpg 2x, ./images/desktop/Photo_16@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_16@1x.jpg" 
+                      alt="Ручка КПП, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item knob cover is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_17@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_17@1x.jpg 1x, ./images/mobile/Photo_17@2x.jpg 2x, ./images/mobile/Photo_17@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_17@1x.jpg 1x, ./images/tablet/Photo_17@2x.jpg 2x, ./images/tablet/Photo_17@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_17@1x.jpg 1x, ./images/desktop/Photo_17@2x.jpg 2x, ./images/desktop/Photo_17@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_17@1x.jpg" 
+                      alt="Ручка КПП, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Ручка КПП, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_18@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_18@1x.jpg 1x, ./images/mobile/Photo_18@2x.jpg 2x, ./images/mobile/Photo_18@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_18@1x.jpg 1x, ./images/tablet/Photo_18@2x.jpg 2x, ./images/tablet/Photo_18@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_18@1x.jpg 1x, ./images/desktop/Photo_18@2x.jpg 2x, ./images/desktop/Photo_18@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_18@1x.jpg" 
+                      alt="Кермо, шкіра натуральна темно-сіра наппа(структурована)" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна темно-сіра наппа(структурована)</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_19@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_19@1x.jpg 1x, ./images/mobile/Photo_19@2x.jpg 2x, ./images/mobile/Photo_19@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_19@1x.jpg 1x, ./images/tablet/Photo_19@2x.jpg 2x, ./images/tablet/Photo_19@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_19@1x.jpg 1x, ./images/desktop/Photo_19@2x.jpg 2x, ./images/desktop/Photo_19@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_19@1x.jpg" 
+                      alt="Кермо з лакованим дерев'яним декором, шкіра натуральна чорна гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з лакованим дерев'яним декором, шкіра натуральна чорна гладка</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_20@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_20@1x.jpg 1x, ./images/mobile/Photo_20@2x.jpg 2x, ./images/mobile/Photo_20@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_20@1x.jpg 1x, ./images/tablet/Photo_20@2x.jpg 2x, ./images/tablet/Photo_20@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_20@1x.jpg 1x, ./images/desktop/Photo_20@2x.jpg 2x, ./images/desktop/Photo_20@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_20@1x.jpg" 
+                      alt="Кермо, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри чорний гладкий</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_21@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_21@1x.jpg 1x, ./images/mobile/Photo_21@2x.jpg 2x, ./images/mobile/Photo_21@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_21@1x.jpg 1x, ./images/tablet/Photo_21@2x.jpg 2x, ./images/tablet/Photo_21@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_21@1x.jpg 1x, ./images/desktop/Photo_21@2x.jpg 2x, ./images/desktop/Photo_21@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_21@1x.jpg" 
+                      alt="Кермо, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри чорний гладкий</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_22@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_22@1x.jpg 1x, ./images/mobile/Photo_22@2x.jpg 2x, ./images/mobile/Photo_22@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_22@1x.jpg 1x, ./images/tablet/Photo_22@2x.jpg 2x, ./images/tablet/Photo_22@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_22@1x.jpg 1x, ./images/desktop/Photo_22@2x.jpg 2x, ./images/desktop/Photo_22@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_22@1x.jpg" 
+                      alt="Кермо, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_23@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_23@1x.jpg 1x, ./images/mobile/Photo_23@2x.jpg 2x, ./images/mobile/Photo_23@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_23@1x.jpg 1x, ./images/tablet/Photo_23@2x.jpg 2x, ./images/tablet/Photo_23@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_23@1x.jpg 1x, ./images/desktop/Photo_23@2x.jpg 2x, ./images/desktop/Photo_23@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_23@1x.jpg" 
+                      alt="Кермо, замінник шкіри чорний гладкий та перфорований" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри чорний гладкий та перфорований</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_24@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_24@1x.jpg 1x, ./images/mobile/Photo_24@2x.jpg 2x, ./images/mobile/Photo_24@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_24@1x.jpg 1x, ./images/tablet/Photo_24@2x.jpg 2x, ./images/tablet/Photo_24@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_24@1x.jpg 1x, ./images/desktop/Photo_24@2x.jpg 2x, ./images/desktop/Photo_24@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_24@1x.jpg" 
+                      alt="Кермо, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри чорний гладкий</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_25@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_25@1x.jpg 1x, ./images/mobile/Photo_25@2x.jpg 2x, ./images/mobile/Photo_25@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_25@1x.jpg 1x, ./images/tablet/Photo_25@2x.jpg 2x, ./images/tablet/Photo_25@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_25@1x.jpg 1x, ./images/desktop/Photo_25@2x.jpg 2x, ./images/desktop/Photo_25@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_25@1x.jpg" 
+                      alt="Кермо з дерев'яним декором, шкіра натуральна темно-сіра гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з дерев'яним декором, шкіра натуральна темно-сіра гладка</p>
+              </div>
+            </li> 
+            
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_26@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_26@1x.jpg 1x, ./images/mobile/Photo_26@2x.jpg 2x, ./images/mobile/Photo_26@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_26@1x.jpg 1x, ./images/tablet/Photo_26@2x.jpg 2x, ./images/tablet/Photo_26@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_26@1x.jpg 1x, ./images/desktop/Photo_26@2x.jpg 2x, ./images/desktop/Photo_26@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_26@1x.jpg" 
+                      alt="Підлокітники, замінник шкіри світло-сірий гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітники, замінник шкіри світло-сірий гладкий</p>
+              </div>
+            </li>             
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_27@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_27@1x.jpg 1x, ./images/mobile/Photo_27@2x.jpg 2x, ./images/mobile/Photo_27@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_27@1x.jpg 1x, ./images/tablet/Photo_27@2x.jpg 2x, ./images/tablet/Photo_27@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_27@1x.jpg 1x, ./images/desktop/Photo_27@2x.jpg 2x, ./images/desktop/Photo_27@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_27@1x.jpg" 
+                      alt="Кермо з дерев'яним декором та ручка КПП, шкіра натуральна темно-сіра наппа(флотар)" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з дерев'яним декором та ручка КПП, шкіра натуральна темно-сіра наппа(флотар)</p>
+              </div>
+            </li>    
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_28@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_28@1x.jpg 1x, ./images/mobile/Photo_28@2x.jpg 2x, ./images/mobile/Photo_28@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_28@1x.jpg 1x, ./images/tablet/Photo_28@2x.jpg 2x, ./images/tablet/Photo_28@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_28@1x.jpg 1x, ./images/desktop/Photo_28@2x.jpg 2x, ./images/desktop/Photo_28@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_28@1x.jpg" 
+                      alt="Кермо, шкіра натуральна наппа гладка та перфорована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна наппа гладка та перфорована</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_29@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_29@1x.jpg 1x, ./images/mobile/Photo_29@2x.jpg 2x, ./images/mobile/Photo_29@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_29@1x.jpg 1x, ./images/tablet/Photo_29@2x.jpg 2x, ./images/tablet/Photo_29@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_29@1x.jpg 1x, ./images/desktop/Photo_29@2x.jpg 2x, ./images/desktop/Photo_29@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_29@1x.jpg" 
+                      alt="Кермо, шкіра натуральна наппа(структурована)" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна наппа(структурована)</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_30@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_30@1x.jpg 1x, ./images/mobile/Photo_30@2x.jpg 2x, ./images/mobile/Photo_30@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_30@1x.jpg 1x, ./images/tablet/Photo_30@2x.jpg 2x, ./images/tablet/Photo_30@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_30@1x.jpg 1x, ./images/desktop/Photo_30@2x.jpg 2x, ./images/desktop/Photo_30@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_30@1x.jpg" 
+                      alt="Кермо та ручка КПП, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо та ручка КПП, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_31@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_31@1x.jpg 1x, ./images/mobile/Photo_31@2x.jpg 2x, ./images/mobile/Photo_31@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_31@1x.jpg 1x, ./images/tablet/Photo_31@2x.jpg 2x, ./images/tablet/Photo_31@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_31@1x.jpg 1x, ./images/desktop/Photo_31@2x.jpg 2x, ./images/desktop/Photo_31@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_31@1x.jpg" 
+                      alt="Кермо, шкіра натуральна чорна гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна чорна гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_32@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_32@1x.jpg 1x, ./images/mobile/Photo_32@2x.jpg 2x, ./images/mobile/Photo_32@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_32@1x.jpg 1x, ./images/tablet/Photo_32@2x.jpg 2x, ./images/tablet/Photo_32@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_32@1x.jpg 1x, ./images/desktop/Photo_32@2x.jpg 2x, ./images/desktop/Photo_32@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_32@1x.jpg" 
+                      alt="Кермо, замінник шкіри темно-сірий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри темно-сірий</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_33@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_33@1x.jpg 1x, ./images/mobile/Photo_33@2x.jpg 2x, ./images/mobile/Photo_33@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_33@1x.jpg 1x, ./images/tablet/Photo_33@2x.jpg 2x, ./images/tablet/Photo_33@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_33@1x.jpg 1x, ./images/desktop/Photo_33@2x.jpg 2x, ./images/desktop/Photo_33@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_33@1x.jpg" 
+                      alt="Кермо з дерев'яним декором, шкіра натуральна темно-бежева гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з дерев'яним декором, шкіра натуральна темно-бежева гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_34@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_34@1x.jpg 1x, ./images/mobile/Photo_34@2x.jpg 2x, ./images/mobile/Photo_34@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_34@1x.jpg 1x, ./images/tablet/Photo_34@2x.jpg 2x, ./images/tablet/Photo_34@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_34@1x.jpg 1x, ./images/desktop/Photo_34@2x.jpg 2x, ./images/desktop/Photo_34@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_34@1x.jpg" 
+                      alt="Кермо, шкіра натуральна чорна глянцева, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна чорна глянцева, флотар</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_35@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_35@1x.jpg 1x, ./images/mobile/Photo_35@2x.jpg 2x, ./images/mobile/Photo_35@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_35@1x.jpg 1x, ./images/tablet/Photo_35@2x.jpg 2x, ./images/tablet/Photo_35@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_35@1x.jpg 1x, ./images/desktop/Photo_35@2x.jpg 2x, ./images/desktop/Photo_35@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_35@1x.jpg" 
+                      alt="Кермо, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри чорний гладкий</p>
+              </div>
+            </li>            
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_36@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_36@1x.jpg 1x, ./images/mobile/Photo_36@2x.jpg 2x, ./images/mobile/Photo_36@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_36@1x.jpg 1x, ./images/tablet/Photo_36@2x.jpg 2x, ./images/tablet/Photo_36@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_36@1x.jpg 1x, ./images/desktop/Photo_36@2x.jpg 2x, ./images/desktop/Photo_36@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_36@1x.jpg" 
+                      alt="Кермо, шкіра натуральна темно-сіра наппа гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна темно-сіра наппа гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_37@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_37@1x.jpg 1x, ./images/mobile/Photo_37@2x.jpg 2x, ./images/mobile/Photo_37@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_37@1x.jpg 1x, ./images/tablet/Photo_37@2x.jpg 2x, ./images/tablet/Photo_37@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_37@1x.jpg 1x, ./images/desktop/Photo_37@2x.jpg 2x, ./images/desktop/Photo_37@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_37@1x.jpg" 
+                      alt="Кермо, шкіра натуральна темно-сіра наппа гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна темно-сіра наппа гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_38@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_38@1x.jpg 1x, ./images/mobile/Photo_38@2x.jpg 2x, ./images/mobile/Photo_38@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_38@1x.jpg 1x, ./images/tablet/Photo_38@2x.jpg 2x, ./images/tablet/Photo_38@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_38@1x.jpg 1x, ./images/desktop/Photo_38@2x.jpg 2x, ./images/desktop/Photo_38@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_38@1x.jpg" 
+                      alt="Кермо з дерев'янним декором, шкіра натуральна чорна гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з дерев'янним декором, шкіра натуральна чорна гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_39@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_39@1x.jpg 1x, ./images/mobile/Photo_39@2x.jpg 2x, ./images/mobile/Photo_39@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_39@1x.jpg 1x, ./images/tablet/Photo_39@2x.jpg 2x, ./images/tablet/Photo_39@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_39@1x.jpg 1x, ./images/desktop/Photo_39@2x.jpg 2x, ./images/desktop/Photo_39@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_39@1x.jpg" 
+                      alt="Кермо, шкіра натуральна чорна гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна чорна гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_40@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_40@1x.jpg 1x, ./images/mobile/Photo_40@2x.jpg 2x, ./images/mobile/Photo_40@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_40@1x.jpg 1x, ./images/tablet/Photo_40@2x.jpg 2x, ./images/tablet/Photo_40@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_40@1x.jpg 1x, ./images/desktop/Photo_40@2x.jpg 2x, ./images/desktop/Photo_40@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_40@1x.jpg" 
+                      alt="Кермо, шкіра натуральна темно-сіра наппа гладка та напів-перфорована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна темно-сіра наппа гладка та напів-перфорована</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_41@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_41@1x.jpg 1x, ./images/mobile/Photo_41@2x.jpg 2x, ./images/mobile/Photo_41@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_41@1x.jpg 1x, ./images/tablet/Photo_41@2x.jpg 2x, ./images/tablet/Photo_41@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_41@1x.jpg 1x, ./images/desktop/Photo_41@2x.jpg 2x, ./images/desktop/Photo_41@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_41@1x.jpg" 
+                      alt="Кермо з дерев'яним декором, шкіра натуральна темно-сіра наппа гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з дерев'яним декором, шкіра натуральна темно-сіра наппа гладка</p>
+              </div>
+            </li>
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_42@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_42@1x.jpg 1x, ./images/mobile/Photo_42@2x.jpg 2x, ./images/mobile/Photo_42@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_42@1x.jpg 1x, ./images/tablet/Photo_42@2x.jpg 2x, ./images/tablet/Photo_42@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_42@1x.jpg 1x, ./images/desktop/Photo_42@2x.jpg 2x, ./images/desktop/Photo_42@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_42@1x.jpg" 
+                      alt="Кермо, шкіра натуральна темно-сіра наппа напів-перфорована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна темно-сіра наппа напів-перфорована</p>
+              </div>
+            </li>
+
+            <li class="gallery-item armrest knob cover is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_43@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_43@1x.jpg 1x, ./images/mobile/Photo_43@2x.jpg 2x, ./images/mobile/Photo_43@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_43@1x.jpg 1x, ./images/tablet/Photo_43@2x.jpg 2x, ./images/tablet/Photo_43@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_43@1x.jpg 1x, ./images/desktop/Photo_43@2x.jpg 2x, ./images/desktop/Photo_43@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_43@1x.jpg" 
+                      alt="Підлокітник, ручка КПП та чохол(пильник) на кулісу, шкіра натуральна темно-сіра наппа структурована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, ручка КПП та чохол(пильник) на кулісу, шкіра натуральна темно-сіра наппа структурована</p>
+              </div>
+            </li>            
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_44@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_44@1x.jpg 1x, ./images/mobile/Photo_44@2x.jpg 2x, ./images/mobile/Photo_44@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_44@1x.jpg 1x, ./images/tablet/Photo_44@2x.jpg 2x, ./images/tablet/Photo_44@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_44@1x.jpg 1x, ./images/desktop/Photo_44@2x.jpg 2x, ./images/desktop/Photo_44@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_44@1x.jpg" 
+                      alt="Кермо, шкіра натуральна темно-сіра, наппа гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна темно-сіра, наппа гладка</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_45@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_45@1x.jpg 1x, ./images/mobile/Photo_45@2x.jpg 2x, ./images/mobile/Photo_45@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_45@1x.jpg 1x, ./images/tablet/Photo_45@2x.jpg 2x, ./images/tablet/Photo_45@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_45@1x.jpg 1x, ./images/desktop/Photo_45@2x.jpg 2x, ./images/desktop/Photo_45@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_45@1x.jpg" 
+                      alt="Підлокітник, шкіра натуральна темно-сіра наппа гладка та напів-перфорована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, шкіра натуральна темно-сіра наппа гладка та напів-перфорована</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_46@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_46@1x.jpg 1x, ./images/mobile/Photo_46@2x.jpg 2x, ./images/mobile/Photo_46@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_46@1x.jpg 1x, ./images/tablet/Photo_46@2x.jpg 2x, ./images/tablet/Photo_46@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_46@1x.jpg 1x, ./images/desktop/Photo_46@2x.jpg 2x, ./images/desktop/Photo_46@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_46@1x.jpg" 
+                      alt="Кермо, шкіра натуральна чорна гладка та перфорована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, шкіра натуральна чорна гладка та перфорована</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_47@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_47@1x.jpg 1x, ./images/mobile/Photo_47@2x.jpg 2x, ./images/mobile/Photo_47@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_47@1x.jpg 1x, ./images/tablet/Photo_47@2x.jpg 2x, ./images/tablet/Photo_47@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_47@1x.jpg 1x, ./images/desktop/Photo_47@2x.jpg 2x, ./images/desktop/Photo_47@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_47@1x.jpg" 
+                      alt="Кермо та ручка КПП, шкіра натуральна темно-сіра наппа гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо та ручка КПП, шкіра натуральна темно-сіра наппа гладка</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_48@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_48@1x.jpg 1x, ./images/mobile/Photo_48@2x.jpg 2x, ./images/mobile/Photo_48@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_48@1x.jpg 1x, ./images/tablet/Photo_48@2x.jpg 2x, ./images/tablet/Photo_48@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_48@1x.jpg 1x, ./images/desktop/Photo_48@2x.jpg 2x, ./images/desktop/Photo_48@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_48@1x.jpg" 
+                      alt="Кермо, замінник шкіри темно-сірий, флотар" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_49@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_49@1x.jpg 1x, ./images/mobile/Photo_49@2x.jpg 2x, ./images/mobile/Photo_49@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_49@1x.jpg 1x, ./images/tablet/Photo_49@2x.jpg 2x, ./images/tablet/Photo_49@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_49@1x.jpg 1x, ./images/desktop/Photo_49@2x.jpg 2x, ./images/desktop/Photo_49@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_49@1x.jpg" 
+                      alt="Підлокітник, шкіра натуральна темно-сіра наппа гладка та напів-перфорована" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, шкіра натуральна темно-сіра наппа гладка та напів-перфорована</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_50@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_50@1x.jpg 1x, ./images/mobile/Photo_50@2x.jpg 2x, ./images/mobile/Photo_50@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_50@1x.jpg 1x, ./images/tablet/Photo_50@2x.jpg 2x, ./images/tablet/Photo_50@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_50@1x.jpg 1x, ./images/desktop/Photo_50@2x.jpg 2x, ./images/desktop/Photo_50@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_50@1x.jpg" 
+                      alt="Підлокітник, замінник шкіри світло-сірий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, замінник шкіри світло-сірий</p>
+              </div>
+            </li>             
+
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_51@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_51@1x.jpg 1x, ./images/mobile/Photo_51@2x.jpg 2x, ./images/mobile/Photo_51@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_51@1x.jpg 1x, ./images/tablet/Photo_51@2x.jpg 2x, ./images/tablet/Photo_51@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_51@1x.jpg 1x, ./images/desktop/Photo_51@2x.jpg 2x, ./images/desktop/Photo_51@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_51@1x.jpg" 
+                      alt="Підлокітник, замінник шкіри світло-бежевий гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, замінник шкіри світло-бежевий гладкий</p>
+              </div>
+            </li>    
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_52@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_52@1x.jpg 1x, ./images/mobile/Photo_52@2x.jpg 2x, ./images/mobile/Photo_52@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_52@1x.jpg 1x, ./images/tablet/Photo_52@2x.jpg 2x, ./images/tablet/Photo_52@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_52@1x.jpg 1x, ./images/desktop/Photo_52@2x.jpg 2x, ./images/desktop/Photo_52@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_52@1x.jpg" 
+                      alt="Кермо з дерев'яним декором, замінник шкіри чорний гладкий" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо з дерев'яним декором, замінник шкіри чорний гладкий</p>
+              </div>
+            </li>  
+
+            <li class="gallery-item steering-wheel is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_53@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_53@1x.jpg 1x, ./images/mobile/Photo_53@2x.jpg 2x, ./images/mobile/Photo_53@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_53@1x.jpg 1x, ./images/tablet/Photo_53@2x.jpg 2x, ./images/tablet/Photo_53@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_53@1x.jpg 1x, ./images/desktop/Photo_53@2x.jpg 2x, ./images/desktop/Photo_53@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_53@1x.jpg" 
+                      alt="Кермо Skoda, замінник шкіри темно-сірий(флотар) з підкладкою" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо Skoda, замінник шкіри темно-сірий(флотар) з підкладкою</p>
+              </div>
+            </li> 
+
+            <li class="gallery-item armrest is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_54@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_54@1x.jpg 1x, ./images/mobile/Photo_54@2x.jpg 2x, ./images/mobile/Photo_54@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_54@1x.jpg 1x, ./images/tablet/Photo_54@2x.jpg 2x, ./images/tablet/Photo_54@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_54@1x.jpg 1x, ./images/desktop/Photo_54@2x.jpg 2x, ./images/desktop/Photo_54@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_54@1x.jpg" 
+                      alt="Підлокітник, шкіра натуральна темно-сіра наппа гладка" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Підлокітник, шкіра натуральна темно-сіра наппа гладка</p>
+              </div>
+            </li> 
+
+            <!-- <li class="gallery-item cover knob is-visible-li">
+              <a class="gallery-item-link link" href="./images/desktop/Photo_55@3x.jpg">
+                <div class="gallery-item-img">
+                  <picture>
+                    <source
+                      srcset="./images/mobile/Photo_55@1x.jpg 1x, ./images/mobile/Photo_55@2x.jpg 2x, ./images/mobile/Photo_55@3x.jpg 3x"
+                      media="(max-width: 767.9px)"
+                    >
+                    <source
+                      srcset="./images/tablet/Photo_55@1x.jpg 1x, ./images/tablet/Photo_55@2x.jpg 2x, ./images/tablet/Photo_55@3x.jpg 3x"
+                      media="(min-width: 768px) and (max-width: 1439.8px)"
+                    >
+                    <source
+                      srcset="./images/desktop/Photo_55@1x.jpg 1x, ./images/desktop/Photo_55@2x.jpg 2x, ./images/desktop/Photo_55@3x.jpg 3x"
+                      media="(min-width: 1440px)"
+                    >
+                    <img 
+                      src="./images/mobile/Photo_55@1x.jpg" 
+                      alt="Кермо (Toyota), натуральна шкіра темна-сіра, наппа" 
+                    >
+                  </picture>
+                </div>
+              </a>  
+              <div class="gallery-item-content">  
+                  <p>Кермо, замінник шкіри темно-сірий, флотар</p>
+              </div>
+            </li>  -->
+
+          </ul> 
 
         </div>
 
       </section>
+
+      <button type="button" class="btn-up-scroll is-hidden-btn">
+        <svg class="scrol-up-arrow">
+            <use href="/src/images/sprite.svg#icon-Vector"></use>
+        </svg>
+      </button>
+      
     </main>
 
     <footer>
@@ -482,54 +1664,55 @@
           
         <div class="footer-title-div">
             <h3 class="footer-h3">Перетяжка керма та дрібних деталей автомобілів</h3>
-            <h4 class="footer-h4">ручки КПП, пильники, підлокітники, дверні карточки, та інше</h4>
+            <h4 class="footer-h4">(ручки КПП, пильники, підлокітники, дверні карточки, та інше)</h4>
         </div>
 
-        <div class="footer-contacts-div">
+          <address class="footer-address">
+            <div class="footer-city-tel-div">
 
-          <address>
-            <p> м.Дніпро</p>
+              <p> м.Дніпро</p>
 
-            <ul class="footer-contacts-ul list">
-                <!--<li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>-->
-                <li><a href="tel:+38(097)678-13-96" class="link">+38 (097) 678-13-96</a></li>
-                <li><a href="tel:+38(050)531-92-76" class="link">+38 (050) 531-92-76</a></li>
+              <ul class="footer-tel-ul list">
+                <!-- <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li> -->
+                  <li><a href="tel:+38(097)678-13-96" class="link">+38(097) 678-13-96</a></li>
+                  <li><a href="tel:+38(050)531-92-76" class="link">+38(050) 531-92-76</a></li>
+              </ul>
+
+            </div>
+
+            <ul class="social-icons-list list">
+
+                <li class="social-icons-item">
+                  <a href="#" class="social-icons-item-link link">
+                    <svg class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="social-icons-item">
+                  <a href="#" class="social-icons-item-link link">
+                    <svg class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-viber"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="social-icons-item">
+                  <a href="#" class="social-icons-item-link link">
+                    <svg class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+
             </ul>
+
           </address>
-
-          <ul class="social-icons-list list">
-
-              <li class="social-icons-item">
-                <a href="#" class="social-icons-item-link link">
-                  <svg class="social-list-icon">
-                    <use href="./images/sprite.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="social-icons-item">
-                <a href="#" class="social-icons-item-link link">
-                  <svg class="social-list-icon">
-                    <use href="./images/sprite.svg#icon-viber"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="social-icons-item">
-                <a href="#" class="social-icons-item-link link">
-                  <svg class="social-list-icon">
-                    <use href="./images/sprite.svg#icon-telegram"></use>
-                  </svg>
-                </a>
-              </li>
-
-          </ul>
-
-        </div>
 
       </div>
 
-    </footer>
+    </footer> 
     
     <script src="./index.js" type="module"></script>
   
