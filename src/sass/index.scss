@@ -107,6 +107,10 @@
       margin-right: 16px;
       border: none;
       color: var(--light-color);
+      &:hover,
+      &:focus{
+        color: var(--link-hover-color);
+      };
     }
 
     .header-address{

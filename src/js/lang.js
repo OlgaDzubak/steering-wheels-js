@@ -1,8 +1,8 @@
 const lang = {
 
     title : {
-        "ua" : "Перетяжка керма та дрібних деталей автомобілів",
-        "en" : "Reupholstering of steering wheels and small car parts",
+        "ua" : "Перетяжка керма та дрібних деталей салону автомобіля",
+        "en" : "Reupholstering of steering wheels and small car interior parts",
         },
     subTitle : {
         "ua" : "(ручки КПП, пильники, підлокітники, дверні картки та інше)",
@@ -41,219 +41,219 @@ const lang = {
     imgContent : [
         {
             "ua" : "Кермо (Toyota), натуральна шкіра темна-сіра, наппа", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather, navy grey, nappa"
         },
         {
             "ua" : "Кермо, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute, navy grey, flotar"
         },
         {
             "ua" : "Кермо, замінник шкіри темно-сірий, флотар",
-            "en" : ""
+            "en" : "Steering wheel, leather substitute navy grey, flotar"
         },
         {
-            "ua" : "Кермо BMW, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "ua" : "Кермо(BMW), замінник шкіри чорний, гладкий", 
+            "en" : "Steering wheel(BMW), leather substitute black, smooth"
         },
         {
             "ua" : "Кермо, натуральна шкіра темна-сіра, наппа", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather navy grey, nappa"
         },
         {
-            "ua" : "Кермо, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "ua" : "Кермо, замінник шкіри чорний, гладкий", 
+            "en" : "Steering wheel, leather substitute black, smooth"
         },
         {
             "ua" : "Ручка КПП, шкіра натуральна темно-сіра, наппа(флотар)", 
-            "en" : ""
+            "en" : "Gear knob, genuine leather, navy grey, nappa(flotar)"
         },
         {
             "ua" : "Ручка КПП, шкіра натуральна темно-сіра, наппа", 
-            "en" : ""
+            "en" : "Gear knob, genuine leather, navy grey, nappa"
         },
         {
             "ua" : "Ручка КПП, шкіра натуральна чорна(флотар)", 
-            "en" : ""
+            "en" : "Gear knob, genuine leather, black(flotar)"
         },
         {
             "ua" : "Ручка КПП, шкіра натуральна чорна", 
-            "en" : ""
+            "en" : "Gear knob, genuine leather, black"
         },
         {
             "ua" : "Ручка КПП, шкіра натуральна чорна", 
-            "en" : ""
+            "en" : "Gear knob, genuine leather, black"
         },
         {
             "ua" : "Підлокітник, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Armrest,  leather substitute navy grey, flotar"
         },
         {
             "ua" : "Чохол(Пильник) на кулісу, замінник шкіри темно-сірий", 
-            "en" : ""
+            "en" : "Gear knob dust cover, leather substitute navy grey"
         },
         {
             "ua" : "Ручка КПП, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Gear knob, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Ручка КПП, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Gear knob, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Ручка КПП, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Gear knob, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Ручка КПП, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Gear knob, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Кермо, шкіра натуральна темно-сіра наппа(структурована)", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather navy grey, nappa(structured)"
         },
         {
             "ua" : "Кермо з лакованим дерев'яним декором, шкіра натуральна чорна гладка", 
-            "en" : ""
+            "en" : "Steering wheel with wooden decor, genuine leather black, smooth"
         },
         {
             "ua" : "Кермо, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute black, smooth"
         },
         {
             "ua" : "Кермо, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute black, smooth"
         },
         {
             "ua" : "Кермо, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Кермо, замінник шкіри чорний гладкий та перфорований", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute black, smooth and perforated"
         },
         {
             "ua" : "Кермо, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute black, smooth"
         },
         {
             "ua" : "Кермо з дерев'яним декором, шкіра натуральна темно-сіра гладка", 
-            "en" : ""
+            "en" : "Steering wheel with wooden decor, genuine leather navy grey, smooth"
         },
         {
             "ua" : "Підлокітники, замінник шкіри світло-сірий гладкий", 
-            "en" : ""
+            "en" : "Armrests, leather substitute light grey, smooth"
         },
         {
             "ua" : "Кермо з дерев'яним декором та ручка КПП, шкіра натуральна темно-сіра наппа(флотар)", 
-            "en" : ""
+            "en" : "Steering wheel with wooden decor and gear knob, genuine leather navy grey, nappa(flotar)"
         },
         {
-            "ua" : "Кермо, шкіра натуральна наппа гладка та перфорована", 
-            "en" : ""
+            "ua" : "Кермо, шкіра натуральна темно-сіра наппа гладка та перфорована", 
+            "en" : "Steering wheel, genuine leather navy grey nappa, smooth and perforated"
         },
         {
-            "ua" : "Кермо, шкіра натуральна наппа(структурована)", 
-            "en" : ""
+            "ua" : "Кермо, шкіра натуральна темно-сіра наппа(структурована)", 
+            "en" : "Steering wheel, genuine leather navy grey nappa(structured)"
         },
         {
             "ua" : "Кермо та ручка КПП, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Steering wheel and gear knob, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Кермо, шкіра натуральна чорна гладка", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather black, smooth"
         },
         {
             "ua" : "Кермо, замінник шкіри темно-сірий", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute navy grey"
         },
         {
             "ua" : "Кермо з дерев'яним декором, шкіра натуральна темно-бежева гладка", 
-            "en" : ""
+            "en" : "Steering wheel with wooden decor, genuine leather navy beige, smooth"
         },
         {
             "ua" : "Кермо, шкіра натуральна чорна глянцева, флотар", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather black, glossy, flotar"
         },
         {
             "ua" : "Кермо, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute black, smooth"
         },
         {
-            "ua" : "Кермо, шкіра натуральна темно-сіра наппа гладка", 
-            "en" : ""
+            "ua" : "Кермо, шкіра натуральна темно-сіра наппа, гладка", 
+            "en" : "Steering wheel, genuine leather navy grey, smooth"
         },
         {
-            "ua" : "Кермо, шкіра натуральна темно-сіра наппа гладка", 
-            "en" : ""
+            "ua" : "Кермо, шкіра натуральна темно-сіра наппа, гладка", 
+            "en" : "Steering wheel, genuine leather navy grey, smooth"
         },
         {
-            "ua" : "Кермо з дерев'янним декором, шкіра натуральна чорна гладка", 
-            "en" : ""
+            "ua" : "Кермо з дерев'янним декором, шкіра натуральна чорна, гладка", 
+            "en" : "Steering wheel with wooden decor, genuine leather black, smooth"
         },
         {
-            "ua" : "Кермо, шкіра натуральна чорна гладка", 
-            "en" : ""
+            "ua" : "Кермо, шкіра натуральна чорна, гладка", 
+            "en" : "Steering wheel, genuine leather black, smooth"
         },
         {
             "ua" : "Кермо, шкіра натуральна темно-сіра наппа гладка та напів-перфорована", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather navy grey, smooth and semi perforated"
         },
         {
-            "ua" : "Кермо з дерев'яним декором, шкіра натуральна темно-сіра наппа гладка", 
-            "en" : ""
+            "ua" : "Кермо з дерев'яним декором, шкіра натуральна темно-сіра наппа, гладка", 
+            "en" : "Steering wheel with wooden decor, genuine leather navy grey nappa, smooth"
         },
         {
             "ua" : "Кермо, шкіра натуральна темно-сіра наппа напів-перфорована", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather navy grey nappa, semi perforated"
         },
         {
-            "ua" : "Підлокітник, ручка КПП та чохол(пильник) на кулісу, шкіра натуральна темно-сіра наппа структурована", 
-            "en" : ""
+            "ua" : "Підлокітник, ручка КПП та чохол(пильник) на кулісу, шкіра натуральна темно-сіра наппа, структурована", 
+            "en" : "Armrest, gear knob and dust covers, genuine leather navy grey nappa, structured"
         },
         {
             "ua" : "Кермо, шкіра натуральна темно-сіра, наппа гладка", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather navy grey nappa, smooth"
         },
         {
             "ua" : "Підлокітник, шкіра натуральна темно-сіра наппа гладка та напів-перфорована", 
-            "en" : ""
+            "en" : "Armrest, genuine leather navy grey nappa, smooth and semi perforated"
         },
         {
             "ua" : "Кермо, шкіра натуральна чорна гладка та перфорована", 
-            "en" : ""
+            "en" : "Steering wheel, genuine leather black, smooth and perforated"
         },
         {
             "ua" : "Кермо та ручка КПП, шкіра натуральна темно-сіра наппа гладка", 
-            "en" : ""
+            "en" : "Steering wheel and gear knob, genuine leather navy grey, smooth"
         },
         {
             "ua" : "Кермо, замінник шкіри темно-сірий, флотар", 
-            "en" : ""
+            "en" : "Steering wheel, leather substitute navy grey, flotar"
         },
         {
             "ua" : "Підлокітник, шкіра натуральна темно-сіра наппа гладка та напів-перфорована", 
-            "en" : ""
+            "en" : "Armrest, genuine leather navy grey nappa, smooth and semi perforated"
         },
         {
             "ua" : "Підлокітник, замінник шкіри світло-сірий", 
-            "en" : ""
+            "en" : "Armrest, leather substitute light grey"
         },
         {
             "ua" : "Підлокітник, замінник шкіри світло-бежевий гладкий", 
-            "en" : ""
+            "en" : "Armrest, leather substitute light beige"
         },
         {
             "ua" : "Кермо з дерев'яним декором, замінник шкіри чорний гладкий", 
-            "en" : ""
+            "en" : "Steering wheel with wooden decor, leather substitute black, smooth"
         },
         {
-            "ua" : "Кермо Skoda, замінник шкіри темно-сірий(флотар) з підкладкою", 
-            "en" : ""
+            "ua" : "Кермо(Skoda), замінник шкіри темно-сірий(флотар) з підкладкою", 
+            "en" : "Steering wheel(Skoda), leather substitute navy grey(flotar) with lining"
         },
         {
             "ua" : "Підлокітник, шкіра натуральна темно-сіра наппа гладка", 
-            "en" : ""
+            "en" : "Armrest, genuine leather navy grey nappa, smooth"
         }
     ]
 }
