@@ -24,9 +24,9 @@
     <header>
       <div class="container">
           
-            <select name="leng" id="leng-select" class="leng">
+            <select name="lang" class="lang">
               <option value="ua">ua</option>
-              <option value="ua">en</option>
+              <option value="en">en</option>
               <!-- <option value="ru">ru</option> -->
             </select>
 
@@ -34,7 +34,7 @@
 
               <div class="header-city-tel-div">
 
-                <p>м.Дніпро</p>
+                <p class="city">м.Дніпро</p>
 
                 <ul class="header-tel-ul list">
                     <!--<li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>-->
@@ -92,15 +92,17 @@
 
         <div class="container">
 
-          <ul class="buttons-ul list">
-            <li class="buttons-ul-li"><button value="all" class="buttons-ul-btn pointer active" type="button">Всі</button></li>
-            <li class="buttons-ul-li"><button value="steering-wheel" class="buttons-ul-btn pointer" type="button">Кермо</button></li>
-            <li class="buttons-ul-li"><button value="knob" class="buttons-ul-btn pointer" type="button">Ручки КПП</button></li>
-            <li class="buttons-ul-li"><button value="cover" class="buttons-ul-btn pointer" type="button">Пильники</button></li>
-            <li class="buttons-ul-li"><button value="armrest" class="buttons-ul-btn pointer" type="button">Підлокітники</button></li>
-          </ul>
-
-           <ul class="gallery list">
+          <h3 class="gallery-h3 visualy-hidden">Галерея виконаних робіт</h3>  <!---прихований заголовой секції--->
+          
+            <ul class="buttons-ul list">
+              <li class="buttons-ul-li"><button value="all" class="buttons-ul-btn pointer active" type="button">Всі</button></li>
+              <li class="buttons-ul-li"><button value="steering-wheel" class="buttons-ul-btn pointer" type="button">Кермо</button></li>
+              <li class="buttons-ul-li"><button value="knob" class="buttons-ul-btn pointer" type="button">Ручки КПП</button></li>
+              <li class="buttons-ul-li"><button value="cover" class="buttons-ul-btn pointer" type="button">Пильники</button></li>
+              <li class="buttons-ul-li"><button value="armrest" class="buttons-ul-btn pointer" type="button">Підлокітники</button></li>
+            </ul>
+          
+          <ul class="gallery list">
 
             <li class="gallery-item steering-wheel is-visible-li">
                 <a class="gallery-item-link link" href="./images/desktop/Photo_1@3x.jpg">
@@ -1670,7 +1672,7 @@
           <address class="footer-address">
             <div class="footer-city-tel-div">
 
-              <p> м.Дніпро</p>
+              <p class="city"> м.Дніпро</p>
 
               <ul class="footer-tel-ul list">
                 <!-- <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li> -->

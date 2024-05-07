@@ -74,6 +74,17 @@
     padding-left : var(--container-padding);
     padding-right : var(--container-padding);
   }
+  .visualy-hidden{ 
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 //}
 
 
@@ -87,11 +98,10 @@
       padding-bottom: 30px;
       box-shadow: 0px 2px 0px 0px var(--shadow-color);
     }
-    .leng {
+    .lang {
       position: absolute;
       top: 0;
-      left: 0;
-      width: 35px;
+      width: auto;
       font-size: 12px;
       font-weight: 500;
       margin-right: 16px;
@@ -207,7 +217,7 @@
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 550px),
     screen and (min-resolution : 96dpi) and (min-width: 550px),
     screen and (min-resolution : 1dppx) and (min-width: 550px){
-      .leng {
+      .lang {
         width: 40px;
         font-size: 16px;
       }      
