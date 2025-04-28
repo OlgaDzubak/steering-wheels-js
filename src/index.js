@@ -4,7 +4,6 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import throttle from "lodash/throttle";
 import { scrollTracker, scrollUp } from './js/help_functions';
 
-
 const LOCALSTORAGE_KEY = "language";
 const gallery = document.querySelector(".gallery"); 
 let smleLightBox = new SimpleLightbox('li.is-visible-li a', {captionsData: 'alt', captionDelay: 0});
@@ -57,6 +56,7 @@ let smleLightBox = new SimpleLightbox('li.is-visible-li a', {captionsData: 'alt'
 // ---------- обробка вибору мови сайту
 {
     const language = JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY));
+
     switch (language){
         case "ua":  
                     changeLanguage("ua");
@@ -71,6 +71,7 @@ let smleLightBox = new SimpleLightbox('li.is-visible-li a', {captionsData: 'alt'
     const langSelect = document.querySelector('.lang');
     langSelect.addEventListener('change', ({target})=>{changeLanguage(target.value)});
 
+
     function changeLanguage(language){
 
         //зберігаємо обрану мову в локальному сховищі
@@ -78,6 +79,10 @@ let smleLightBox = new SimpleLightbox('li.is-visible-li a', {captionsData: 'alt'
 
         //header, footer, hero
         document.querySelector(".lang").value = language;
+
+        document.querySelector('meta[name="title"]').setAttribute('content') = lang.metaTitle[language];
+        document.querySelector('meta[name="descriptopn"]').setAttribute('content') = lang.metaDscription[language];
+
         document.querySelector(".header-h1").textContent = lang.title[language];
         document.querySelector(".header-h2").textContent = lang.subTitle[language];
         document.querySelector("header .city").textContent = lang.city[language];
