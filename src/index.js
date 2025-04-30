@@ -75,7 +75,7 @@ let smleLightBox = new SimpleLightbox('li.is-visible-li a', {captionsData: 'alt'
         //header, footer, hero
         document.querySelector(".lang").value = language;
 
-        document.querySelector("html").setAttribute("lang", lang.metaLang[language]);
+        document.querySelector("html").setAttribute("lang") = lang.metaLang[language];
         document.querySelector('meta[name="title"]').setAttribute('content') = lang.metaTitle[language];
         document.querySelector('meta[name="descriptopn"]').setAttribute('content') = lang.metaDscription[language];
 
