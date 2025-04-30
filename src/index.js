@@ -80,7 +80,7 @@ let smleLightBox = new SimpleLightbox('li.is-visible-li a', {captionsData: 'alt'
         document.querySelector('meta[name="description"]').setAttribute('content', lang.metaDescription[language]);
 
         document.querySelector(".header-h1").textContent = lang.title[language];
-        document.querySelector(".header-h2").textContent = lang.subTitle[language];
+        // document.querySelector(".header-h2").textContent = lang.subTitle[language];
         document.querySelector("header .city").textContent = lang.city[language];
         document.querySelector(".gallery-h3").textContent = lang.galleryTitle[language];
         document.querySelector(".footer-h3").textContent = lang.title[language];
