@@ -1,4 +1,5 @@
 const lang = {
+    
     metaLang: {
         'ua': 'uk',
         'en': 'en',
