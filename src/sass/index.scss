@@ -1,6 +1,5 @@
 
 // --- GLOBAL STYLES ---
-//{
   *,
   *::before,
   *::after {
@@ -85,13 +84,11 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-//}
 
 
 // --- HEADER styles ---
-//{
-  // mobile version
-  //{ 
+
+// mobile version
     header{
       position: relative;
       padding-top: 30px;
@@ -106,7 +103,7 @@
       font-weight: 500;
       margin-right: 16px;
       border: none;
-      color: var(--light-color);
+      color: var(--text-color);
       &:hover,
       &:focus{
         color: var(--link-hover-color);
@@ -213,11 +210,8 @@
     }
 
 
-  //}
 
   // tablet version
-  //{
-
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 550px),
     screen and (min-resolution : 96dpi) and (min-width: 550px),
     screen and (min-resolution : 1dppx) and (min-width: 550px){
@@ -259,10 +253,8 @@
       }
     }
 
-  //}
 
-  // desktop version
-  //{
+    // desktop version
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 1440px),
     screen and (min-resolution : 96dpi) and (min-width: 1440px),
     screen and (min-resolution : 1dppx) and (min-width: 1440px){
@@ -283,14 +275,11 @@
         height: 25px;
       }
     }
-  //}
-//}
 
 
 // ---  MAIN styles ---
-//{
-  // mobile version
-  //{
+
+   // mobile version
     .hero-section{
       padding-top: 25px;
     }
@@ -390,10 +379,7 @@
       color: var(--text-color);      
     }
 
-  //}
-
   // tablet version
-  //{
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 768px),
     screen and (min-resolution : 96dpi) and (min-width: 768px),
     screen and (min-resolution : 1dppx) and (min-width: 768px){
@@ -421,10 +407,8 @@
         font-size: 15px;
       }
     }
-  //}
 
   // desktop version
-  //{
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 1440px),
     screen and (min-resolution : 96dpi) and (min-width: 1440px),
     screen and (min-resolution : 1dppx) and (min-width: 1440px){
@@ -449,14 +433,11 @@
         font-size: 17px;
       }
     }
-  //}
-//}
 
 
 // --- FOOTER styles ---
-//{
-  // mobile version
-  //{
+
+   // mobile version
     footer{
       background-color: var(--footer-color);
       color:var(--footer-text-color);
@@ -538,10 +519,8 @@
         gap: 5px;
       }
     }
-  //}
 
   // tablet version
-  //{
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 768px),
     screen and (min-resolution : 96dpi) and (min-width: 768px),
     screen and (min-resolution : 1dppx) and (min-width: 768px){
@@ -600,10 +579,7 @@
       }
     }
 
-  //}
-
-  // desktop version
-  //{
+   // desktop version
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 1440px),
     screen and (min-resolution : 96dpi) and (min-width: 1440px),
     screen and (min-resolution : 1dppx) and (min-width: 1440px){
@@ -615,16 +591,10 @@
       }
     }
 
-  //}
-
-//}
-
 
 // --- ScrollUp button style ---
-//{
 
-  // mobile version
-  //{
+    // mobile version
     .btn-up-scroll {
       position: fixed;
       bottom: 275px;
@@ -695,10 +665,8 @@
           bottom: 330px;
         }
     }    
-  //}
 
   // tablet version
-  //{
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 768px),
     screen and (min-resolution : 96dpi) and (min-width: 768px),
     screen and (min-resolution : 1dppx) and (min-width: 768px){
@@ -706,10 +674,8 @@
         bottom: 250px;
       }
     }
-  //}
 
   // desktop version
-  //{
     @media screen and (min-device-pixel-ratio: 1) and (min-width: 1440px),
     screen and (min-resolution : 96dpi) and (min-width: 1440px),
     screen and (min-resolution : 1dppx) and (min-width: 1440px){
@@ -717,6 +683,3 @@
         bottom: 190px;
       }
     }
-  //}  
-
-//}
